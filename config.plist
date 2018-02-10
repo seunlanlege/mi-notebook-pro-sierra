@@ -218,13 +218,17 @@
 		<key>#DefaultVolume</key>
 		<string>Mac OSX</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 kext-dev-mode=1 -disablegfxfirmware -igfxoff -igdvmtbeta</string>
+		<string>-v dart=0 darkwake=8 nv_disable=1 kext-dev-mode=1 -igfxoff -igdvmtbeta -disablegfxfirmware -igfxbeta -igfxdvmtbeta abm_firstpolldelay=10000</string>
+		<key>DefaultVolume</key>
+		<string>Mac OSX</string>
+		<key>Fast</key>
+		<true/>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
-		<key>Timeout</key>
-		<integer>0</integer>
+		<key>fast</key>
+		<true/>
 	</dict>
 	<key>Devices</key>
 	<dict>
